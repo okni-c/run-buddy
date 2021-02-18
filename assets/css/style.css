@@ -11,6 +11,7 @@ body {
 }
 
 /* apply styles to <header> */
+
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -25,6 +26,7 @@ header h1 {
   color: #fce138;
   margin: 0;
 }
+
 header a {
   text-decoration: none;
   color: #fce138;
@@ -34,14 +36,18 @@ header nav {
   margin: 7px 0;
 }
 
-header nav ul li {
-  display: inline;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 
 footer {
@@ -72,6 +78,7 @@ section {
 }
 
 /* Hero Style Start */
+
 .hero {
   background-image: url('../images/hero-bg.jpg');
   height: 600px;
@@ -79,6 +86,7 @@ section {
   background-position: center;
   position: relative;
 }
+
 /* Hero Style End */
 
 .hero-form {
@@ -96,6 +104,7 @@ section {
   font-size: 24px;
   margin: 0;
 }
+
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -228,6 +237,7 @@ section {
 }
 
 /* REACH OUT STYLES START */
+
 .contact {
   text-align: center;
   background: #024e76;
@@ -256,8 +266,7 @@ section {
   font-size: 32px;
 }
 
-.contact-info p,
-.contact-info address {
+.contact-info p, .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;

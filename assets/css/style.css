@@ -196,6 +196,10 @@ section {
   padding: 0 100px 20px 100px;
   display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -292,6 +296,10 @@ section {
 
 .contact-info a {
   color: #fce138;
+}
+
+.flex-row {
+  display: flex;
 }
 
 /* REACH OUT STYLES END */
